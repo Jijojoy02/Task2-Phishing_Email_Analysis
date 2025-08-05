@@ -1,0 +1,7 @@
+SPF: FAIL
+DKIM: NONE
+DMARC: FAIL
+Return-Path: spoof@maliciousdomain.com
+Received: from unknownhost ([185.203.119.10])
+Authentication-Results: spf=fail dkim=none dmarc=fail
+X-Originating-IP: 185.203.119.10
